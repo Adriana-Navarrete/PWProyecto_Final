@@ -1,12 +1,34 @@
 <?php
-session_start();
+ session_start();
+
     include('../layouts/header.php');
 
 ?>
 
-<?php
+<?php 
     if(isset($_SESSION['id_asistente'])){
+        
 ?>
+<h1><center>Bienvenido al sistema de eventos</center></h1>
+<?php 
+
+echo "<b>".$_SESSION['nombre_asistente']."</b>";
+    
+?>
+<form method="post" >
+<input type="submit" name="cerrars" value="Sign Out" class="btn btn-info"/>
+</form>
+<?php 
+    
+
+    if(isset($_POST['cerrars'])){
+        session_destroy();
+        header("location: login.php");
+    }
+        
+ }
+?>
+
 
 <div class="container">
     <div id="myCarousel" class="carousel slide">
@@ -27,9 +49,7 @@ session_start();
     </div>
 </div>
 
-<?php 
-    }
-?>
+
 
 <?php
 
