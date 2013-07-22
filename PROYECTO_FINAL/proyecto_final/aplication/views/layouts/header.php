@@ -52,7 +52,7 @@
                             <a href="<?echo BASE_URL;?>views/site/inicio.php"><i class="icon-home"></i> Inicio</a>
                         </li>
                         <li class="active">
-                            <a href="<?echo BASE_URL;?>views/site/form_login.php"><i class="icon-user"></i> Login</a>
+                            <a href="<?echo BASE_URL;?>views/site/login.php"><i class="icon-user"></i> Login</a>
                         </li>
                         <li class="active">
                             <a href="<?echo BASE_URL;?>views/site/form_usuarios.php"><i class="icon-pencil"></i> Registro</a>
