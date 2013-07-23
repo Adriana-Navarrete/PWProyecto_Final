@@ -1,0 +1,140 @@
+<html>
+
+	<head>
+	
+		<title>USUARIOS</title>
+		
+		<!-- Loading Bootstrap -->
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		
+		<!-- Loading Flat UI -->
+		<!link href="../../Flat-UI-master/css/flat-ui.css" rel="stylesheet">
+		
+		<script src="../../Flat-UI-master/js/jquery-1.8.3.min.js"></script>
+		<script src="../../Flat-UI-master/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="../../Flat-UI-master/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="../../Flat-UI-master/js/bootstrap.min.js"></script>
+		<script src="../../Flat-UI-master/js/bootstrap-select.js"></script>
+		<script src="../../Flat-UI-master/js/bootstrap-switch.js"></script>
+		<script src="../../Flat-UI-master/js/flatui-checkbox.js"></script>
+		<script src="../../Flat-UI-master/js/flatui-radio.js"></script>
+		<script src="../../Flat-UI-master/js/jquery.tagsinput.js"></script>
+		<script src="../../Flat-UI-master/js/jquery.placeholder.js"></script>
+		<script src="../../Flat-UI-master/js/jquery.stacktable.js"></script>
+		<script src="http://vjs.zencdn.net/c/video.js"></script>
+		<script src="../../Flat-UI-master/js/application.js"></script>
+		
+		<link href="../css/IMAGEN DE FONDO.css" rel="stylesheet">
+
+	</head>
+	
+	<body background="../img/FONDO.jpg">
+	
+		<div class="container">
+			<img src="../img/BANNER.jpg" alt="">
+		</div>
+		
+		<div class="navbar navbar-inverse">
+			<div class="navbar-inner">
+				<ul class="nav nav-pills">
+					<li class="active">
+						<a href="index.html">INICIO</a>
+					</li>
+					<li class="active">
+						<a href="_form_login.html">LOGIN</a>
+					</li>
+					<li class="active">
+						<a href="_form_usuarios.html">USUARIOS</a>
+					</li>
+					<li class="active">
+						<a href="-form-actividades.html">ACTIVIDADES</a>
+					</li>
+					<li class="active">
+						<a href="form_eventos.html">EVENTOS</a>
+					</li>
+					<li class="active">
+						<a href="-form-tiposusuarios.html">TIPOS DE USUARIOS</a>
+					</li>
+					<li class="active">
+						<a href="_form_asistentestipousuario.html">USUARIOS TIPOS DE USUARIOS</a>
+					</li>
+					<li class="active">
+						<a href="_form_eventostipousuario.html">EVENTOS TIPOS DE USUARIOS</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="container" id="formulario">
+			<form class="form-horizontal" method="post">
+				<fieldset>
+					<legend>INSERTA TUS DATOS</legend>
+					<div class="control-group">
+						<label class="control-label" for="apellido_paterno">APELLIDO PATERNO</label>
+						<div class="controls">
+							<input id="apellido_paterno" name="apellido_paterno" type="text" maxlength="120" required="text" placeholder="Apellido Paterno" autofocus>
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="apellido_materno">APELLIDO MATERNO</label>
+						<div class="controls">
+							<input id="apellido_materno" name="apellido_materno" type="text" maxlength="120" required="text" placeholder="Apellido Materno">
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="nombre">NOMBRE</label>
+						<div class="controls">
+							<input id="nombre" name="nombre" type="text" maxlength="120" required="text" placeholder="Nombre">
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="sexo">SEXO</label>
+						<div class="controls">
+							<input id="sexo" name="sexo" type="radio" maxlength="120" value="hombre" required="checked">HOMBRE
+							<br>
+							<input id="sexo" name="sexo" type="radio" maxlength="120" value="mujer" required="checked">MUJER
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="edad">EDAD</label>
+						<div class="controls">
+							<input id="edad" name="edad" type="number" maxlength="2" required="number" placeholder="18">
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="email">EMAIL</label>
+						<div class="controls">
+							<input id="email" name="email" type="email" maxlength="200" required="email" placeholder="usuario@dominio.com">
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="nctr_rfc">R.F.C.</label>
+						<div class="controls">
+							<input id="nctr_rfc" name="nctr_rfc" type="text" maxlength="13" required="text" placeholder="XXXX123456XX1">
+						</div>
+					</div>
+					<br>
+					<div class="control-group">
+						<label class="control-label" for="numero_control">NUMERO DE CONTROL</label>
+						<div class="controls">
+							<input id="numero_control" name="numero_control" type="number" maxlength="8" required="number" placeholder="00000000">
+						</div>
+					</div>
+					<br>
+					<div class="">
+						<button id="guardar" name="guardar" type="submit" class="btn btn-success">GUARDAR</button>
+						<button id="borrar" name="borrar" type="reset" class="btn btn-danger">BORRAR</button>
+						<button id="regresar" name="regresar" type="button" onClick="window.location.href='index.html'" class="btn btn-warning">REGRESAR</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		
+	</body>
+</html>
