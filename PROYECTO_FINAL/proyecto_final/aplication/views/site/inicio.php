@@ -20,17 +20,17 @@
     </ol>
     <!-- Carousel items -->
     <div class="carousel-inner">
-        <div class="active item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 1.jpg" alt="banner1" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 2.jpg" alt="banner2" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 3.jpg" alt="banner3" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 4.jpg" alt="banner4" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 5.jpg" alt="banner5" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 6.jpg" alt="banner6" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 7.jpg" alt="banner7" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 8.jpg" alt="banner8" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 9.png" alt="banner9" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 10.png" alt="banner10" /></div>
-        <div class="item"><img  src="<?echo BASE_URL;?>views/bootstrap/img/CARRUSEL 11.png" alt="banner11" /></div>
+        <div class="active item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 1.jpg" alt="banner1" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 2.jpg" alt="banner2" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 3.jpg" alt="banner3" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 4.jpg" alt="banner4" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 5.jpg" alt="banner5" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 6.jpg" alt="banner6" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 7.jpg" alt="banner7" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 8.jpg" alt="banner8" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 9.png" alt="banner9" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 10.png" alt="banner10" /></div>
+        <div class="item"><img  src="<?php echo BASE_URL;?>views/bootstrap/img/CARRUSEL 11.png" alt="banner11" /></div>
     </div>
     <!-- Carousel nav -->
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
